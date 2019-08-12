@@ -32,7 +32,7 @@ rm -rf $path
 mkdir -p $source
 cp -r ../*.c $source
 cp -r ../*.h $source
-cp ../README $source
+cp ../README.md $source
 cp ../CMakeLists.txt $source
 cp -r ../Android $source
 
