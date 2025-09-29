@@ -10,5 +10,6 @@ IF(WIN32)
 set_target_properties(tetra-codec PROPERTIES PREFIX "")
 ENDIF()
 
-install(TARGETS tetra-codec DESTINATION lib)
+install(TARGETS tetra-codec DESTINATION lib64)
 install(FILES tetra-codec.h DESTINATION include)
+install(FILES tetra-codec.pc DESTINATION lib64/pkgconfig)

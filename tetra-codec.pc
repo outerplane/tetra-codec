@@ -1,0 +1,10 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${prefix}/lib64
+
+Name: tetra-codec
+Description: TETRA speech codec
+Version: 1.0.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -ltetra-codec
