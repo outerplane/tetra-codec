@@ -1,0 +1,12 @@
+{
+  "name": "tetra-codec",
+  "version-string": "1.0",
+  "description": "ETSI EN 300 395-2 V1.3.1 (2005-01) - TETRA codec",
+  "homepage": "https://github.com/outerplane/tetra-codec",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    }
+  ]
+}
